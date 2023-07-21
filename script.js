@@ -111,9 +111,3 @@ function calculaRuido(pontob,pontoc,pontod){
     SNd.innerHTML = (pontod - Nd).toFixed(2);
 
 }
-
-
-
-
-
-
