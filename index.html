@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Comunicação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>TP P1 - Sistema de Comunicação</h1>
+        <div class="name">
+            <p>Caio Monteiro - Ra:188540</p>
+            <p>Felipe Miranda - Ra:152799</p>
+        </div>
+    </header>
+    <section class="content">
+        <div class="imgSist">
+            <img src="./assets/SistemaComun.png" alt="SistemaComunicações">
+        </div>
+        <div class="title">
+            <h1>Entre com os valores</h1>
+        </div>
+        <div class="Values">
+            <div class="inputSection">
+                <div>
+                    <p>Potência Sinal TX</p>
+                    <input type="number" id="potenciaTx" placeholder="Entre com o valor...">
+                    <select name="" id="unidadePotencia">
+                        <option value="db">db</option>
+                        <option value="mW">mW</option>
+                        <option value="µW">µW</option>
+                        <option value="nW">nW</option>
+                        <option value="pW">pW</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Atenuação 1</p>
+                    <input type="number" id="atenuacao1" placeholder="Entre com o valor...">
+                    <select name="" id="unidadeat1">
+                        <option value="db">db</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Ganho</p>
+                    <input type="number" id="ganho" placeholder="Entre com o valor...">
+                    <select name="" id="unidadeGanho">
+                        <option value="db">db</option>
+                        <option value="mW">mW</option>
+                        <option value="µW">µW</option>
+                        <option value="nW">nW</option>
+                        <option value="pW">pW</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Potência de Ruido do Amplificador</p>
+                    <input type="number" id="PN" placeholder="Entre com o valor...">
+                    <select name="" id="unidadePN">
+                        <option value="db">db</option>
+                        <option value="mW">mW</option>
+                        <option value="µW">µW</option>
+                        <option value="nW">nW</option>
+                        <option value="pW">pW</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Atenuação 2</p>
+                    <input type="number" id="atenuacao2" placeholder="Entre com o valor...">
+                    <select name="" id="unidadeat2">
+                        <option value="db">db</option>
+                    </select>
+                </div>
+                <div>
+                    <p>S/N</p>
+                    <input type="number" id="SNtx" placeholder="Entre com o valor...">
+                    <select name="" id="unidadeSNtx">
+                        <option value="db">db</option>
+                    </select>
+                </div>
+                <a class="btn" id="btn-calc">Calcular</a>
+            </div>
+            <div id="tabela">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Sinal (dbm)</th>
+                        <th>Ruido (dbm)</th>
+                        <th>S/N (db)</th>
+                    </thead>
+                    <tr>
+                        <th>A</th>
+                        <td id="Sinal-A">0</td>
+                        <td id="Ruido-A">0</td>
+                        <td id="S/N-A">0</td>
+                    </tr>
+                    <tr>
+                        <th>B</th>
+                        <td id="Sinal-B">0</td>
+                        <td id="Ruido-B">0</td>
+                        <td id="S/N-B">0</td>
+                    </tr>
+                    <tr>
+                        <th>C</th>
+                        <td id="Sinal-C">0</td>
+                        <td id="Ruido-C">0</td>
+                        <td id="S/N-C">0</td>
+                    </tr>
+
+                    <tr>
+                        <th>D</th>
+                        <td id="Sinal-D">0</td>
+                        <td id="Ruido-D">0</td>
+                        <td id="S/N-D">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

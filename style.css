@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+header{
+    background-color: #33FFBB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    padding: 1.5rem ;
+    flex-direction: column ;
+    font-size: 1.3rem;
+}
+header .name{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.content .imgSist{
+    display: flex;
+    justify-content: center;   
+}
+
+/* content */
+
+
+.title{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #33FFBB;
+}
+
+.Values{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputSection{
+    margin-left: 7rem;
+    margin-right: -20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputSection p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.inputSection input{
+    height: 2rem;
+    width: 20rem;
+    font-size: 1rem;
+}
+.inputSection select{
+    height: 2rem;
+    width: 3.5rem;
+    font-size: 1.1rem;
+}
+.inputSection .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    background-color: #33FFBB;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 40rem;
+    height: 30rem;
+    border: 0.1rem solid #1a1a1a;
+    font-size: 1.5rem;
+    text-align: center;
+}
+th,td{
+    padding: 1rem;
+    border: 0.1rem solid #1a1a1a;
+}
+th{
+    background-color: #33FFBB;
+}
+
+/* media queries */
+
+@media(max-width:1000px){
+    html{
+        font-size: 15px;
+    }
+    .content .imgSist img{
+        width: 60rem;   
+    }
+    .inputSection select{
+        height: 3rem;
+        width: 5rem;
+        font-size: 1.5rem;
+    }
+    .Values{
+        flex-direction: column;
+    }
+    .inputSection{
+        justify-content: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    #tabela{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+}
