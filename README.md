@@ -23,8 +23,6 @@
 <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub logo" title="GitHub" height="25" />
 </div>
 
-
-<br>
 <br>
 
 <p align="justify">
