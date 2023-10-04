@@ -20,6 +20,8 @@
 <img src="https://img.shields.io/badge/Git-F05033?logo=git&logoColor=white" alt="Git logo" title="Git" height="25" />
 <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub logo" title="GitHub" height="25" />
 
+<br>
+
 <p align="justify">
-  Obrigado pela visita, sinta-se a vontade para explorar os demais projetos :)
+  Obrigado pela visita, sinta-se a vontade para dar sugestões de melhorias e explorar os demais projetos :)
 </p>
