@@ -23,6 +23,7 @@ header .name{
 }
 
 .content .imgSist{
+    width: 100%;
     display: flex;
     justify-content: center;   
 }
@@ -48,7 +49,6 @@ header .name{
 
 .inputSection{
     margin-left: 7rem;
-    margin-right: -20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@ th{
 
 /* media queries */
 
-@media(max-width:1000px){
+@media(max-width:1024px){
     html{
         font-size: 15px;
     }
@@ -123,5 +123,22 @@ th{
         margin-top: 6rem;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .content .imgSist img{
+        width: 40rem; 
+    }
+}
+
+@media(max-width: 500px)
+{
+    html{
+        font-size: 11px;
+    }
+    .content .imgSist img{
+        width: 30rem; 
     }
 }
